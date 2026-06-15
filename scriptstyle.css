@@ -1,0 +1,544 @@
+body {
+    background-color:#edeae4; 
+}
+h1{
+	position: absolute;
+	top: 15px;
+	width: 100vw;
+	height: 70px;
+    text-align: center;   
+    margin: 0;      
+    font-size: 50px;      
+}
+
+#sc1 {
+    position: absolute;
+    left: 25%;
+    top: 100px;
+    width: 50%;  
+    z-index: 15;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.sc1png {
+    width: 100%;                
+    height: auto;             
+    display: block;    
+}
+#sc1:hover {
+    aspect-ratio: 1 / 1.4;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info1{
+  position:absolute;
+  top: 100px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#sc1:hover ~ .book-info1 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#sc2 {
+    position: absolute;
+    left: 25%;
+    top: 450px;
+    width: 50%; 
+    z-index:14;                
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.sc2png {
+    width: 100%;                
+    height: auto;             
+    display: block;    
+}
+#sc2:hover {
+    aspect-ratio: 1 / 1.3;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info2{
+  position:absolute;
+  top: 450px;  
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#sc2:hover ~ .book-info2 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#sc3 {
+    position: absolute;
+    left: 25%;
+    top: 800px;
+    width: 50%;
+    z-index: 13;
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.sc3png {
+    width: 100%;                
+    height: auto;             
+    display: block;      
+}
+#sc3:hover {
+    aspect-ratio: 1 / 1.3;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info3{
+  position:absolute;
+  top: 800px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#sc3:hover ~ .book-info3 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+
+#sc4 {
+    position: absolute;
+    left: 25%;
+    top: 1150px;
+    width: 50%;   
+    z-index: 12;              
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.sc4png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#sc4:hover {
+    aspect-ratio: 1 / 1;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info4{
+  position:absolute;
+  top: 1150px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#sc4:hover ~ .book-info4 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#sc5 {
+    position: absolute;
+    left: 25%;
+    top: 1500px;
+    width: 50%;  
+    z-index: 11;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.sc5png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#sc5:hover {
+    aspect-ratio: 1 / 1.5;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info5{
+  position:absolute;
+  top: 1500px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#sc5:hover ~ .book-info5 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#sc6 {
+    position: absolute;
+    left: 25%;
+    top: 1850px;
+    width: 50%;  
+    z-index: 10;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.sc6png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#sc6:hover {
+    aspect-ratio: 1 / 1.5;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info6{
+  position:absolute;
+  top: 1850px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#sc6:hover ~ .book-info6 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+
+#sc7 {
+    position: absolute;
+    left: 25%;
+    top:2200px;
+    width: 50%;  
+    z-index: 9;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.sc7png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#sc7:hover {
+    aspect-ratio: 1 / 1;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info7{
+  position:absolute;
+  top: 2200px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#sc7:hover ~ .book-info7 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#sc8 {
+    position: absolute;
+    left: 25%;
+    top: 2550px;
+    width: 50%;  
+    z-index: 8;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+}
+.sc8png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#sc8:hover {
+    aspect-ratio: 1 / 1.5;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info8{
+  position:absolute;
+  top: 2550px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#ss8:hover ~ .book-info8 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#sc9 {
+    position: absolute;
+    left: 25%;
+    top: 2900px;
+    width: 50%;  
+    z-index: 7;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.sc9png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#sc9:hover {
+    aspect-ratio: 1 / 1.1;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info9{
+  position:absolute;
+  top: 2900px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#sc9:hover ~ .book-info9 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#sc10 {
+    position: absolute;
+    left: 25%;
+    top: 3250px;
+    width: 50%;  
+    z-index:6;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.sc10png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#sc10:hover {
+    aspect-ratio: 1 / 1;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info10{
+  position:absolute;
+  top: 3250px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#sc10:hover ~ .book-info10 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#sc11 {
+    position: absolute;
+    left: 25%;
+    top: 3600px;
+    width: 50%;  
+    z-index: 5;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.sc11png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#sc11:hover {
+    aspect-ratio: 1 / 1;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info11{
+  position:absolute;
+  top: 3600px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#sc11:hover ~ .book-info11 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#sc12 {
+    position: absolute;
+    left: 25%;
+    top: 3950px;
+    width: 50%;  
+    z-index: 4;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.sc12png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#sc12:hover {
+    aspect-ratio: 1 / 1.4;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info12{
+  position:absolute;
+  top: 3950px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#sc12:hover ~ .book-info12 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#sc13 {
+    position: absolute;
+    left: 25%;
+    top: 4300px;
+    width: 50%;  
+    z-index: 3;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.sc13png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#sc13:hover {
+    aspect-ratio: 1 / 1;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info13{
+  position:absolute;
+  top: 4300px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#sc13:hover ~ .book-info13 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#sc14 {
+    position: absolute;
+    left: 25%;
+    top: 4650px;
+    width: 50%;  
+    z-index: 2;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.sc14png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#sc14:hover {
+    aspect-ratio: 1 / 1.2;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info14{
+  position:absolute;
+  top: 4650px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#sc14:hover ~ .book-info14 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+

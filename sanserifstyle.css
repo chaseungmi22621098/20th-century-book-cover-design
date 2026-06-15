@@ -1,0 +1,393 @@
+body {
+    background-color:#edeae4; 
+    }
+h1{
+	position: absolute;
+	top: 15px;
+	width: 100vw;
+	height: 70px;
+    text-align: center;   
+    margin: 0;      
+    font-size: 50px;      
+}
+
+#ss1 {
+    position: absolute;
+    left: 25%;
+    top: 100px;
+    width: 50%;  
+    z-index: 10;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.ss1png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#ss1:hover {
+    aspect-ratio: 1 / 1.5;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info1{
+  position:absolute;
+  top: 100px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#ss1:hover ~ .book-info1 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#ss2 {
+    position: absolute;
+    left: 25%;
+    top: 450px;
+    width: 50%; 
+    z-index:9;                
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.ss2png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#ss2:hover {
+    aspect-ratio: 1 / 1.5;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info2{
+  position:absolute;
+  top: 450px;  
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#ss2:hover ~ .book-info2 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#ss3 {
+    position: absolute;
+    left: 25%;
+    top: 800px;
+    width: 50%;
+    z-index: 8;
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.ss3png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#ss3:hover {
+    aspect-ratio: 1 / 1.5;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info3{
+  position:absolute;
+  top: 800px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#ss3:hover ~ .book-info3 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+
+#ss4 {
+    position: absolute;
+    left: 25%;
+    top: 1150px;
+    width: 50%;   
+    z-index: 7;              
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.ss4png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#ss4:hover {
+    aspect-ratio: 1 / 1.5;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info4{
+  position:absolute;
+  top: 1150px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#ss4:hover ~ .book-info4 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#ss5 {
+    position: absolute;
+    left: 25%;
+    top: 1500px;
+    width: 50%;  
+    z-index: 6;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.ss5png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#ss5:hover {
+    aspect-ratio: 1 / 1.5;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info5{
+  position:absolute;
+  top: 1500px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#ss5:hover ~ .book-info5 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#ss6 {
+    position: absolute;
+    left: 25%;
+    top: 1850px;
+    width: 50%;  
+    z-index: 5;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.ss6png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#ss6:hover {
+    aspect-ratio: 1 / 1.5;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info6{
+  position:absolute;
+  top: 1850px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#ss6:hover ~ .book-info6 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+
+#ss7 {
+    position: absolute;
+    left: 25%;
+    top:2200px;
+    width: 50%;  
+    z-index: 4;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.ss7png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#ss7:hover {
+    aspect-ratio: 1 / 1.4;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info7{
+  position:absolute;
+  top: 2200px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#ss7:hover ~ .book-info7 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#ss8 {
+    position: absolute;
+    left: 25%;
+    top: 2550px;
+    width: 50%;  
+    z-index: 3;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+}
+.ss8png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#ss8:hover {
+    aspect-ratio: 1 / 1.5;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info8{
+  position:absolute;
+  top: 2550px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#ss8:hover ~ .book-info8 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#ss9 {
+    position: absolute;
+    left: 25%;
+    top: 2900px;
+    width: 50%;  
+    z-index: 2;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.ss9png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#ss9:hover {
+    aspect-ratio: 1 / 1.4;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info9{
+  position:absolute;
+  top: 2900px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#ss9:hover ~ .book-info9 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#ss10 {
+    position: absolute;
+    left: 25%;
+    top: 3250px;
+    width: 50%;  
+    z-index: 1;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.ss10png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#ss10:hover {
+    aspect-ratio: 1 / 1.4;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info10{
+  position:absolute;
+  top: 3250px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#ss10:hover ~ .book-info10 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}

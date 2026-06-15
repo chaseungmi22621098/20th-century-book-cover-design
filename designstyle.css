@@ -1,0 +1,392 @@
+body {
+    background-color:#edeae4; 
+}
+h1{
+	position: absolute;
+	top: 15px;
+	width: 100vw;
+	height: 70px;
+    text-align: center;   
+    margin: 0;      
+    font-size: 50px;      
+}
+
+#d1 {
+    position: absolute;
+    left: 25%;
+    top: 100px;
+    width: 50%;  
+    z-index: 15;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.d1png {
+    width: 100%;                
+    height: auto;             
+    display: block;    
+}
+#d1:hover {
+    aspect-ratio: 1 / 1.4;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info1{
+  position:absolute;
+  top: 100px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#d1:hover ~ .book-info1 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#d2 {
+    position: absolute;
+    left: 25%;
+    top: 450px;
+    width: 50%; 
+    z-index:14;                
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.d2png {
+    width: 100%;                
+    height: auto;             
+    display: block;    
+}
+#d2:hover {
+    aspect-ratio: 1 / 1;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info2{
+  position:absolute;
+  top: 450px;  
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#d2:hover ~ .book-info2 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#d3 {
+    position: absolute;
+    left: 25%;
+    top: 800px;
+    width: 50%;
+    z-index: 13;
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.d3png {
+    width: 100%;                
+    height: auto;             
+    display: block;      
+}
+#d3:hover {
+    aspect-ratio: 1 / 1.3;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info3{
+  position:absolute;
+  top: 800px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#d3:hover ~ .book-info3 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+
+#d4 {
+    position: absolute;
+    left: 25%;
+    top: 1150px;
+    width: 50%;   
+    z-index: 12;              
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.d4png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#d4:hover {
+    aspect-ratio: 1 / 1.44;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info4{
+  position:absolute;
+  top: 1150px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#d4:hover ~ .book-info4 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#d5 {
+    position: absolute;
+    left: 25%;
+    top: 1500px;
+    width: 50%;  
+    z-index: 11;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.d5png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#d5:hover {
+    aspect-ratio: 1 / 1.27;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info5{
+  position:absolute;
+  top: 1500px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#d5:hover ~ .book-info5 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#d6 {
+    position: absolute;
+    left: 25%;
+    top: 1850px;
+    width: 50%;  
+    z-index: 10;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.d6png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#d6:hover {
+    aspect-ratio: 1 / 1.3;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info6{
+  position:absolute;
+  top: 1850px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#d6:hover ~ .book-info6 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+
+#d7 {
+    position: absolute;
+    left: 25%;
+    top:2200px;
+    width: 50%;  
+    z-index: 9;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.d7png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#d7:hover {
+    aspect-ratio: 1 / 0.9;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info7{
+  position:absolute;
+  top: 2200px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#d7:hover ~ .book-info7 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#d8 {
+    position: absolute;
+    left: 25%;
+    top: 2550px;
+    width: 50%;  
+    z-index: 8;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+}
+.d8png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#d8:hover {
+    aspect-ratio: 1 / 1.5;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info8{
+  position:absolute;
+  top: 2550px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#d8:hover ~ .book-info8 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#d9 {
+    position: absolute;
+    left: 25%;
+    top: 2900px;
+    width: 50%;  
+    z-index: 7;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.d9png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#d9:hover {
+    aspect-ratio: 1 / 1.3;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info9{
+  position:absolute;
+  top: 2900px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#d9:hover ~ .book-info9 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+
+#d10 {
+    position: absolute;
+    left: 25%;
+    top: 3250px;
+    width: 50%;  
+    z-index:6;               
+    aspect-ratio: 1 / 0.4;     
+    overflow: hidden;          
+    cursor: pointer;
+    transition: aspect-ratio 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);: ;
+}
+.d10png {
+    width: 100%;                
+    height: auto;             
+    display: block;
+    object-position: top;       
+}
+#d10:hover {
+    aspect-ratio: 1 / 1.2;       
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.book-info10{
+  position:absolute;
+  top: 3250px;
+  left: 55%;   
+  width: 200px;   
+  height: 100px;
+  transition: left 0.5s ease;
+  opacity: 0
+}
+#d10:hover ~ .book-info10 {
+  transform: translatex(20vW);
+  transition: transform 0.5s ease;
+  opacity: 1
+}
+
+

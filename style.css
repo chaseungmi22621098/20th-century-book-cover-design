@@ -9,6 +9,7 @@ h1 {
 #seriftitle, #sanseriftitle, #scripttiltle, #designtitle {
   position: relative;
   overflow: hidden;
+  color: black;
 }
 
 .image-box {

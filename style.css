@@ -1,3 +1,4 @@
+
 h1 {
 	position: absolute;
 	top: 0%;
@@ -16,6 +17,7 @@ h1 {
   width: 100%;
   height: 100%;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   transition: transform 0.5s ease; 
   position: absolute;
@@ -34,8 +36,9 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: x-large;
   font-family: serif;
+  font-size: clamp(16px, 2vw, 28px); 
+  padding: 10px;     /* 글자가 테두리에 딱 붙지 않도록 여백 추가 */
 }
 
 #seriftitle:hover .image-box,
@@ -91,3 +94,40 @@ h1 {
   	align-items: center;  
 }
 
+@media (max-width: 768px) {
+  ul {
+    height: 60vh; 
+  }
+
+  #seriftitle, #sanseriftitle, #scripttiltle, #designtitle {
+    width: 50%;
+    height: 50%;
+  }
+
+  #seriftitle {
+    left: 0%;
+    top: 0%;
+  }
+  
+  #sanseriftitle {
+    left: 50%;
+    top: 0%;
+  }
+  
+  #scripttiltle {
+    left: 0%;
+    top: 50%;
+  }
+  
+  #designtitle {
+    left: 50%;
+    top: 50%;
+  }
+
+  .image-box {
+    background-size: cover;
+  }
+  .slide-boxn p {
+  	font-size:20px;
+  }
+}

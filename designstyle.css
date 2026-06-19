@@ -43,7 +43,7 @@ h1{
   height: 100px;
   transition: left 0.5s ease;
   opacity: 0;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 #d1:hover ~ .book-info1 {
@@ -85,7 +85,7 @@ h1{
   height: 100px;
   transition: left 0.5s ease;
   opacity: 0;
-  line-height: 30px;
+  line-height: 40px;
 }
 #d2:hover ~ .book-info2 {
   transform: translatex(20vW);
@@ -126,7 +126,7 @@ h1{
   height: 100px;
   transition: left 0.5s ease;
   opacity: 0;
-    line-height: 30px;
+    line-height: 40px;
 
 }
 #d3:hover ~ .book-info3 {
@@ -170,7 +170,7 @@ h1{
   height: 100px;
   transition: left 0.5s ease;
   opacity: 0;
-    line-height: 30px;
+    line-height: 40px;
 
 }
 #d4:hover ~ .book-info4 {
@@ -213,7 +213,7 @@ h1{
   height: 100px;
   transition: left 0.5s ease;
   opacity: 0;
-    line-height: 30px;
+    line-height: 40px;
 
 }
 #d5:hover ~ .book-info5 {
@@ -256,7 +256,7 @@ h1{
   height: 100px;
   transition: left 0.5s ease;
   opacity: 0;
-    line-height: 30px;
+    line-height: 40px;
 
 }
 #d6:hover ~ .book-info6 {
@@ -300,7 +300,7 @@ h1{
   height: 100px;
   transition: left 0.5s ease;
   opacity: 0;
-    line-height: 30px;
+    line-height: 40px;
 
 }
 #d7:hover ~ .book-info7 {
@@ -343,7 +343,7 @@ h1{
   height: 100px;
   transition: left 0.5s ease;
   opacity: 0;
-    line-height: 30px;
+    line-height: 40px;
 
 }
 #d8:hover ~ .book-info8 {
@@ -386,7 +386,7 @@ h1{
   height: 100px;
   transition: left 0.5s ease;
   opacity: 0;
-    line-height: 30px;
+    line-height: 40px;
 
 }
 #d9:hover ~ .book-info9 {
@@ -429,7 +429,7 @@ h1{
   height: 100px;
   transition: left 0.5s ease;
   opacity: 0;
-    line-height: 30px;
+    line-height: 40px;
 
 }
 #d10:hover ~ .book-info10 {
@@ -444,13 +444,13 @@ h1{
   font-size: clamp(14px, 1.8vw, 20px) !important;
   white-space: normal !important; 
   word-break: keep-all;
-  line-height: 1.5 !important;
+  line-height: 1.5;
 }
 
 [class^="book-info"] p {
   margin: 0;
   font-size: clamp(10px, 1.3vw, 15px) !important;
-  line-height: 20 !important;
+  line-height: 2 !important;
   word-break: keep-all;
 }
 
@@ -468,5 +468,4 @@ h1{
     font-size: 13px !important;
   }
 }
-
 

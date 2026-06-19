@@ -388,3 +388,34 @@ h1{
   transition: transform 0.5s ease;
   opacity: 1
 }
+[class^="book-info"] h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: clamp(14px, 1.8vw, 20px) !important;
+  white-space: normal !important; 
+  word-break: keep-all;
+  line-height: 1.3;
+}
+
+[class^="book-info"] p {
+  margin: 0;
+  font-size: clamp(10px, 1.3vw, 15px) !important;
+  line-height: 24px !important;
+  word-break: keep-all;
+}
+
+@media (max-width: 768px) {
+  [class^="book-info"] {
+    width: 25% !important; 
+    line-height: 1.4 !important;
+  }
+  
+  [class^="book-info"] h3 {
+    font-size: 16px !important;
+  }
+
+  [class^="book-info"] p {
+    font-size: 13px !important;
+  }
+}
+

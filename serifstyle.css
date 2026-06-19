@@ -800,11 +800,11 @@ h1{
   }
   
   [class^="book-info"] h3 {
-    font-size: 16px !important;
+    font-size: 15px !important;
   }
 
   [class^="book-info"] p {
-    font-size: 13px !important;
+    font-size: 10px !important;
   }
 }
 
